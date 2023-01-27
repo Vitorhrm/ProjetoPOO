@@ -1,0 +1,98 @@
+*{
+box-sizing: border-box;
+margin:0;
+padding:0;
+outline:0;
+}
+
+.nav-button{
+    border:0;
+    border-radius:4px;
+    padding: 8px;
+    background-color:black;
+    margin:8px;
+    cursor: pointer;
+}
+.nav-button i {
+    color: white;
+
+}
+
+.overlay{
+    width:0;
+    height:100%;
+    background-color:rgb(224, 224, 47);
+    z-index:9;
+    position:fixed;
+    left:0;
+    top:0;
+    overflow-x:hidden;
+    transition:all 0.5s;
+    
+}
+
+.overlay-content{
+position:relative;
+top:25%;
+width:100%;
+text-align:center;
+margin-top:30px;
+}
+
+.overlay a{
+    padding:8px;
+    text-decoration:none;
+    color: #050505;
+    display:block;
+    font-size:30px;
+    transition:0.3s;
+}
+
+.overlay a:hover, .overlay a:focus{
+    color:white
+}
+
+.overlay .closebtn{
+    position: absolute;
+    top: 25px;
+    right: 45px;
+    font-size:60px;
+}
+
+@media screen and(max-height:450px){
+    .overlay a{font-size:20px;}
+    .overlay, .closebtn{
+        font-size:40px;
+        top:15px;
+        right:35px;
+
+    }
+}
+
+h1 {
+    font-size:60px;
+    color:orangered;
+    font-weight:normal;
+    
+}
+h1 .h1color {
+    color:#070607;
+}
+h2 {
+    font-size:40px;
+    color:orangered;
+    font-weight:normal;
+    
+}
+h2 .h1color {
+    color:#860671;
+}
+
+
+
+
+
+
+
+
+
